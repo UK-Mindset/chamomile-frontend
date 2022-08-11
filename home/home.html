@@ -4,9 +4,52 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="home.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="/player/player.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.mediPlayer').mediaPlayer();
+        });
+    </script>
+    <script type="text/javascript">
+    
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-36251023-1']);
+      _gaq.push(['_setDomainName', 'jqueryscript.net']);
+      _gaq.push(['_trackPageview']);
+    
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    
+    </script>
+    <title>Home</title>
 </head>
 <body>
-    Hello
+    <div class="header">
+        <div class="container">
+            <!-- Media Player-->
+            <div class="mediPlayer">
+                <audio class="listen" preload="none" data-size="250" src="/player/music/music3.mp3"></audio>
+            </div>
+            <div class="bgm">BGM</div>
+        </div> <!-- Media Player / -->
+        <div class="purple">
+            <img src="/img/home/search.png" class="search">
+            <img src="/img/home/profile.png" class="profile">
+            <p class="greetingsB greet">Hello, chelsea</p>
+            <p class="greetingsS greet">How are yout feeling today?</p>
+        </div>
+        <div class="white">
+            <p class="title">Quick actions</p>
+            <div class="iconQ" style="margin-left: 93px;">
+                <img src="/img//home/activity.png" class="imgs">
+                <p class="textQ" style="margin-left: 5px;">Activity</p>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
