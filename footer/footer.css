@@ -15,10 +15,10 @@
         margin-left:-8px ;
     }
     .iconF{
-        position:fixed;
+        position:absolute;
         width: 31px;
         height: 28px;
-        bottom: 6%;
+        bottom: 55%;
     }
     .imgs{
         width: 31px;
@@ -36,10 +36,10 @@
         text-decoration: none;
     }
     .mood{
-        position:fixed;
+        position:absolute;
         width: 64px;
         height: 64px;
-        bottom: 6%;
+        bottom: 53%;
     }
     .imgsMood{
         width: 64px;
