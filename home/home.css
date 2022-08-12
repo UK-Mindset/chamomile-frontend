@@ -68,9 +68,12 @@
 
 /* Home Style */
 @media screen and (max-width: 720px){
+    
     .textHome{
         color: #8B82FF;
     }
+
+    /* purple part CSS */
     .header{
         margin-top: -15px;
     }
@@ -78,7 +81,7 @@
         background-color: #8B82FF;
         margin: -8px;
         width: 375px;
-        height: 255px;
+        height: 260px;
     }
     .greet{
         position: relative;
@@ -101,8 +104,8 @@
         margin: 0%;
     }
     .mediPlayer{
-        position: fixed;
-        top: 54px;
+        position: absolute;
+        top: 46px;
         margin-left: 16px;
     }
     .bgm{
@@ -130,14 +133,169 @@
 
     }
 
+/* Quick actions CSS */
     .white{
         position: absolute;
         width: 376px;
         height: 627px;
         left: 0px;
         top: 235px;
-
         background: #FFFFFF;
         border-radius: 30px 30px 0px 0px;
+        
+    }
+    .titleQ{
+        position: absolute;
+        font-family: 'SF Pro Display';
+        font-weight: 600;
+        font-size: 17px;
+        left: 16px;
+        top: 20px;
+        margin: 0%
+    }
+    .imgsQ{
+        position: absolute;
+        width: 34px;
+        height: 34.09px;
+        top: 70px;
+    }
+    .textQ{
+        position: absolute;
+        width: 41px;
+        top: 114px;
+        font-family: 'SF Pro Display';
+        font-weight: 400;
+        font-size: 13px;
+        margin: 0%;
+        color: #191919;
+    }
+
+    /* Today Css */
+    .today{
+        margin: 0%;
+        position: absolute;
+        width: 38px;
+        height: 18px;
+        left: 16px;
+        top: 170px;
+        font-family: 'SF Pro Display';
+        font-weight: 400;
+        font-size: 15px;
+        color: #191919;
+
+    }
+    .myMood{
+        position: absolute;
+        width: 342px;
+        height: 214px;
+        left: 16px;
+        top: 198px;
+        background: #F8F7FC;
+        border-radius: 20px;
+    }
+    .myMoodT{
+        margin: 0%;
+        position: absolute;
+        left: 15px;
+        top: 15px;
+        font-family: 'SF Pro Display';
+        font-weight: 600;
+        font-size: 17px;
+        color: #191919;
+    }
+    .edit{
+        margin: 0%;
+        position: absolute;
+        width: 25px;
+        height: 18px;
+        left: 298px;
+        top: 17px;
+        font-family: 'SF Pro Display';
+        font-weight: 400;
+        font-size: 15px;
+        color: #8B82FF;
+    }
+    /* SoundTherapy CSS */
+    .soundTherapy{
+        position: absolute;
+        left: 17px;
+        top: 442px;
+        font-family: 'SF Pro Display';
+        font-weight: 600;
+        font-size: 17px;
+        color: #191919;
+    }
+    .moreS{
+        position: absolute;
+        width: 33px;
+        height: 18px;
+        left: 311px;
+        top: 444px;
+        font-family: 'SF Pro Display';
+        font-weight: 400;
+        font-size: 15px;
+        color: #8B82FF;
+    }
+    .arrowS{
+        position: absolute;
+        width: 15px;
+        height: 15px;
+        left: 349px;
+        top: 462px;
+
+    }
+    .wrapSt{
+        max-width: 375px;
+    }
+    .scrollSt{
+        overflow-x:scroll;
+        white-space:nowrap;
+        
+    }
+    .st{
+        display:inline-block;
+        width: 130px;
+        height: 130px;
+        margin-top: 486px;
+        filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.05));
+        margin-right: -10px;
+    }
+    
+    .underbox{
+        position: absolute;
+        width: 375px;
+        height: 8px;
+        left: 0px;
+        top: 666px;
+        background: #EFEFEF;
+    }
+    
+    /* Challenges in progress */
+    .challengeP{
+        position: absolute;
+        left: 16px;
+        top: 674px;
+        font-family: 'SF Pro Display';
+        font-weight: 600;
+        font-size: 17px;
+        color: #191919;
+    }
+    .moreC{
+        position: absolute;
+        width: 33px;
+        height: 18px;
+        left: 311px;
+        top: 674px;
+        font-family: 'SF Pro Display';
+        font-weight: 400;
+        font-size: 15px;
+        color: #8B82FF;
+    }
+    .arrowC{
+        position: absolute;
+        width: 15px;
+        height: 15px;
+        left: 349px;
+        top: 692px;
     }
 }
