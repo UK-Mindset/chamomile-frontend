@@ -1,0 +1,86 @@
+/* header CSS */
+.arrow{
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    left: 11px;
+    top: 57px;
+}
+.titleSearch{
+    position: absolute;
+    left: 161px;
+    top: 66px;
+    font-family: 'SF Pro Display';
+    font-weight: 600;
+    font-size: 17px;
+    color: #191919;
+    margin: 0%;
+}
+/* Search Function CSS */
+.search{
+    margin: 0%;
+    position: absolute;
+    display: inline-block;
+    box-sizing: border-box;
+    width: 343px;
+    height: 44px;
+    left: 16px;
+    top: 123px;
+    background: rgba(246, 246, 246, 0.5);
+    border: 1px solid #F6F6F6;
+    border-radius: 10px;
+}
+.iconSearch{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 10px;
+    top: 12px;
+}
+input{
+    margin: 0%;
+    box-sizing: border-box;
+    position: absolute;
+    width: 308px;
+    height: 44px;
+    left: 35px;
+    background: rgba(246, 246, 246, 0.5);
+    border: 1px solid #F6F6F6;
+    border-radius: 10px;
+    outline: none;
+}
+::placeholder {
+    font-family: 'SF Pro Display';
+    font-weight: 200;
+    font-size: 17px;
+    color: #C7C7CC;
+}
+.clear {
+  position: absolute;
+  top: 13px;
+  right: 10px;
+  width: 17px;
+  height: 17px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: rgba(246, 246, 246, 0.5);
+  margin: 0%;
+}
+/* no result CSS */
+.cart{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 137px;
+    top: 376px;
+}
+.explanation{
+    position: absolute;
+    left: 85px;
+    top: 476px;
+    font-family: 'SF Pro Display';
+    font-weight: 300;
+    font-size: 17px;
+    color: #C7C7CC;
+}

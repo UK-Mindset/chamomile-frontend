@@ -7,9 +7,26 @@
     <link rel="stylesheet" href="search.css">
     <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
     <script src="search.js"></script>
+    <script>
+        function clearSearch() {
+            var obj = document.getElementsByClassName('inputSearch');
+
+            for (var i = 0; i < obj.length; i++) {
+                obj[i].value = '';
+            }
+        }
+    </script>
     <title>Search</title>
 </head>
 <body>
-    
+    <a href="/home/home_st.html"><img src="/img/search/arrow.png" class="arrow"></a>
+    <p class="titleSearch">Search</p>
+    <div class="search">
+        <img src="/img/search/search.png" class="iconSearch">
+        <input type="text" class="inputSearch" placeholder="Enter your search term">
+        <button onclick="clearSearch()" type="button" class="clear"><img src="/img/search/clear.png"></button>
+    </div>
+    <img src="/img/search/cart.png" class="cart">
+    <p class="explanation">There are no recent searches</p>
 </body>
 </html>
