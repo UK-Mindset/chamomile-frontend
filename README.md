@@ -1,2 +1,2 @@
-# mind-set-frontend
+# chamomile-frontend
 2022 Mirim Global  internship Project🧸
