@@ -7,25 +7,7 @@
     <link rel="stylesheet" href="home.css">
     <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
     <script src="/player/player.js"></script>
-    <script>
-        $(document).ready(function () {
-            $('.mediPlayer').mediaPlayer();
-        });
-    </script>
-    <script type="text/javascript">
-    
-      var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', 'UA-36251023-1']);
-      _gaq.push(['_setDomainName', 'jqueryscript.net']);
-      _gaq.push(['_trackPageview']);
-    
-      (function() {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-      })();
-    
-    </script>
+    <script src="/home/home.js"></script>
     <title>Home</title>
 </head>
 <body>
@@ -67,6 +49,29 @@
             <div class="myMood">
                 <p class="myMoodT">My Mood</p>
                 <p class="edit"><u>Edit</u></p>
+                <div class="zt-span6 last" id="moodWrap">
+                    <div class="zt-skill-bar" id="todayProgress">
+                        <div data-width="61" class="moodPer" style="background-color: rgba(139, 130, 255, 0.7); margin-top: 15px;">
+                            <img src="/img/home/smile.png" class="emoji">
+                            <span class="moodTitle">Interested</span>
+                            <span class="moodperT">61%</span>
+                        </div>
+                    </div>
+                    <div class="zt-skill-bar" id="todayProgress">
+                        <div data-width="50" class="moodPer" style="background-color: rgba(139, 130, 255, 0.5);">
+                            <img src="/img/home/spiral.png" class="emoji">
+                            <span class="moodTitle">Confused</span>
+                            <span class="moodperT">50%</span>
+                        </div>
+                    </div>
+                    <div class="zt-skill-bar" id="todayProgress">
+                        <div data-width="35" class="moodPer" style="background-color: rgba(139, 130, 255, 0.2);">
+                            <img src="/img/home/cry.png" class="emoji">
+                            <span class="moodTitle">Tearful</span>
+                            <span class="moodperT">35%</span>
+                        </div>
+                    </div>
+                </div>        
             </div>
             <!-- Sound Therapy -->
             <p class="soundTherapy">Sound Therapy</p>
@@ -90,8 +95,13 @@
                     <div class="challengeBox" style="margin-left: 16px;">
                         <img src="/img/home/challengeP01.png" class="imgC imgC01">
                         <div class="infoC">
-                            <p class="titleCP">Energy Boost <img src="/img/home/fire.png"></p>
-                            <!-- progressBar -->
+                            <p class="titleCP">Energy Boost <img src="/img/home/fire.png"></p> 
+                            <!-- progressbar -->
+                            <div class="zt-span6 last">
+                                <div class="zt-skill-bar" id="challengeP">
+                                    <div data-width="70" class="chellangePer" style="background:linear-gradient(90deg, #B8C8FE 0%, #8B82FF 100%);"></div>
+                                </div>
+                            </div>
                             <p class="successCount">3 out of 5 success</p>
                             <img src="/img/home/startCP.png" class="startCP">
                         </div>
@@ -101,6 +111,11 @@
                         <div class="infoC">
                             <p class="titleCP">Energy Boost <img src="/img/home/fire.png"></p>
                             <!-- progressBar -->
+                            <div class="zt-span6 last">
+                                <div class="zt-skill-bar" id="challengeP">
+                                    <div data-width="40" class="chellangePer" style="background:linear-gradient(90deg, #B8C8FE 0%, #8B82FF 100%);"></div>
+                                </div>
+                            </div>
                             <p class="successCount">3 out of 5 success</p>
                             <img src="/img/home/startCP.png" class="startCP">
                         </div>

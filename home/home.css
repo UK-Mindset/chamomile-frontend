@@ -73,6 +73,7 @@
         color: #8B82FF;
     }
 
+
     /* purple part CSS */
     .header{
         margin-top: -15px;
@@ -133,6 +134,7 @@
 
     }
 
+
 /* Quick actions CSS */
     .white{
         position: absolute;
@@ -169,6 +171,7 @@
         margin: 0%;
         color: #191919;
     }
+
 
     /* Today Css */
     .today{
@@ -215,6 +218,72 @@
         font-size: 15px;
         color: #8B82FF;
     }
+        /* Today ProgressBar */
+
+            /* ProgressBar Public Setting*/
+        .zt-skill-bar{
+            -webkit-border-radius: 100px;
+            -moz-border-radius: 100px;
+                -ms-border-radius: 100px;
+                    border-radius: 100px;
+
+        }
+        .zt-skill-bar * {
+            webkit-transition: all 0.5s ease;
+            -moz-transition: all 0.5s ease;
+            -ms-transition: all 0.5s ease;
+                -o-transition: all 0.5s ease;
+                transition: all 0.5s ease;
+                -webkit-border-radius: 100px;
+                -moz-border-radius: 100px;
+                    -ms-border-radius: 100px;
+                        border-radius: 100px;
+        }
+        /* ProgressBar Public Setting */
+
+    .zt-span6.last{
+        position: absolute;
+        top: 40px;
+        left: 10px;
+    }
+    #todayProgress{
+        font-family: 'SF Pro Display';
+        font-weight: 400;
+        font-size: 17px;
+        height: 40px;
+        width: 312px;
+        margin-bottom: 10px;
+        background-color: #FFFFFF;
+    }
+
+    .zt-skill-bar .moodPer {
+        position: relative;
+        width: 312px;
+        height:40px;
+        margin: 0%;
+    }
+    .moodTitle{
+        position: absolute;
+        left: 43px;
+        top: 11px;
+        font-family: 'SF Pro Display';
+        font-weight: 400;
+        font-size: 17px;
+        color: #352CA7;
+    }
+    .emoji{
+        position: relative;
+        margin: 0%;
+        top: 6px;
+        left: 8px;
+    }
+    .moodperT{
+         position: absolute;
+         left: 263px;
+         top: 11px;
+    }
+
+
     /* SoundTherapy CSS */
     .soundTherapy{
         position: absolute;
@@ -269,6 +338,7 @@
         background: #EFEFEF;
     }
     
+
     /* Challenges in progress */
     .challengeP{
         position: absolute;
@@ -332,6 +402,20 @@
         color: #191919;
         margin: 0%;
     }
+    .zt-span6.last{
+        position: relative;
+        width: 180px;
+        height: 4px;
+        margin: 0%;
+        background-color: #F8F7FC;;
+    }
+
+    .zt-skill-bar .chellangePer {
+        position: relative;
+        width: 180px;
+        height: 4px;
+        margin: 0%;
+    }
     .successCount{
         position: absolute;
         left: 10px;
@@ -349,6 +433,8 @@
         left: 119px;
         top: 62px;
     }
+    
+    
     
     
 }
