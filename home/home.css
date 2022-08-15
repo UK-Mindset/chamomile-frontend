@@ -1,7 +1,6 @@
 @font-face {
     font-family:'SF Pro Display';
     font-style:normal;
-    font-weight:100;
     src:local('☺︎'), url("http://www.apple.com/wss/fonts/SF-Pro-Display/v1/sf-pro-display_ultralight.woff") format("woff"), url("http://www.apple.com/wss/fonts/SF-Pro-Display/v1/sf-pro-display_ultralight.ttf") format("truetype");
     /* (C) 2015 Apple Inc. All rights reserved.*/
   }
@@ -129,9 +128,17 @@
         position: absolute;
         width: 24px;
         height: 24px;
-        left: 335px;
+        right: 18px;
         top: 54px;
 
+    }
+    .moon{
+        position: absolute;
+        top: 80px;
+        left: 210px;
+        margin: 0%;
+        width: 158px;
+        height: 176px;
     }
 
 
@@ -206,12 +213,12 @@
         font-size: 17px;
         color: #191919;
     }
-    .edit{
+    .moreT{
         margin: 0%;
         position: absolute;
         width: 25px;
         height: 18px;
-        left: 298px;
+        left: 294px;
         top: 17px;
         font-family: 'SF Pro Display';
         font-weight: 400;
