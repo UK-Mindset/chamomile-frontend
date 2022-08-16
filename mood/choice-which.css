@@ -1,1 +1,110 @@
- 
+@media screen and (max-width: 720px){
+    .backgroud{
+        margin: -8px;
+        width: 375px;
+        height: 812px;
+        background: linear-gradient(180deg, #E1DFFF 0%, #FFF9F9 21.55%, rgba(255, 255, 255, 0) 43.1%);
+    }
+    .arrow{
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        left: 11px;
+        top: 57px;
+    }
+    .question{
+        margin: 0%;
+        position: absolute;
+        width: 280px;
+        height: 58px;
+        left: 70px;
+        top: 124px;
+        font-family: 'SF Pro Display';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 29px;
+        /* text-align: center; */
+        color: #191919;
+    }
+
+    /* emotion CSS */
+    .whichWrap{
+        margin: 0%;
+        position: relative;
+        left: 16px;
+        right: 16px;
+    }
+    .rowW01{
+        position: relative;
+        margin: 0px,20px,0px,0px;
+        top: 220px;
+    }
+    .rowW02{
+        position: relative;
+        margin: 0px,20px,0px,0px;
+        top: 330px;
+    }
+    .rowW03{
+        position: relative;
+        margin: 0px,20px,0px,0px;
+        top: 440px;
+    }
+    .rowW04{
+        position: relative;
+        margin: 0px,20px,0px,0px;
+        top: 550px;
+    }
+    .iconWrap{
+        box-sizing: border-box;
+        position: absolute;
+        width: 102px;
+        height: 102px;
+        background: #FFFFFF;
+        border: 1px solid #D2D6DF;
+        border-radius: 20px;
+    }
+    .col02{
+        position: absolute;
+        left: 118px;
+    }
+    .col03{
+        position: absolute;
+        left: 236px;
+    }
+
+    .icon{
+        position: absolute;
+        width: 36px;
+        height: 36px;
+        top: 22px;
+    
+    }
+    .whichTitle{
+        position: absolute;
+        top: 64px;
+        font-family: 'SF Pro Display';
+        font-weight: 400;
+        font-size: 15px;
+        color: #191919;
+        margin: 0%;
+    }
+
+    .next{
+        position: fixed;
+        width: 343px;
+        height: 56px;
+        left: 16px;
+        top: 722px;
+        background: #8B82FF;
+        box-shadow: 0px 4px 8px rgba(139, 130, 255, 0.2);
+        border-radius: 20px;
+    }
+    .nextT{
+        color: #FFFFFF;
+        font-family: 'Noto Sans';
+        font-weight: 600;
+        font-size: 17px;
+        text-align: center;
+    }
+}
