@@ -7,7 +7,7 @@ function handleClick(event) {
 
   console.log(event.target.classList);
 
-  if (event.target.classList[1] == "clicked") {
+  if (event.target.classList === "clicked") {
     event.target.classList.remove("clicked");
   } else {
     for (var i = 0; i < div2.length; i++) {
