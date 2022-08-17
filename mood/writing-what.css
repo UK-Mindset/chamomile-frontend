@@ -1,1 +1,147 @@
- 
+@media screen and (max-width: 720px){
+    .backgroud{
+        margin: -8px;
+        width: 375px;
+        height: 812px;
+        background: linear-gradient(180deg, #E1DFFF 0%, #FFF9F9 21.55%, rgba(255, 255, 255, 0) 43.1%);
+    }
+    .arrow{
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        left: 11px;
+        top: 57px;
+    }
+    /* .clock{
+        position: absolute;
+        width: 104px;
+        height: 20px;
+        left: 134px;
+        top: 67px;
+        font-family: 'SF Pro Display';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 17px;
+        line-height: 20px;
+        text-align: center;
+        color: #191919;
+    } */
+    .skip{
+        position: absolute;
+        right: 16px;
+        margin: 0%;
+        top: 66px;
+        font-family: 'SF Pro Display';
+        font-weight: 400;
+        font-size: 15px;
+        color: #AEAEB2;
+    }
+    .question{
+        margin: 0%;
+        position: absolute;
+        left: 64px;
+        top: 122px;
+        font-family: 'SF Pro Display';
+        font-weight: 600;
+        font-size: 24px;
+        color: #191919;
+
+    }
+    .choice{
+        box-sizing: border-box;
+        position: absolute;
+        width: 95px;
+        height: 36px;
+        top: 212px;
+        background: rgba(139, 130, 255, 0.1);
+        border: 1px solid #8B82FF;
+        border-radius: 10px;
+    }
+    .name{
+        position: absolute;
+        margin: 0%;
+        width: 42px;
+        height: 20px;
+        left: 10px;
+        top: 8px;
+        font-family: 'SF Pro Display';
+        font-weight: 400;
+        font-size: 17px;
+        color: #8B82FF;
+    }
+    .icon{        
+        position: absolute;
+        margin: 0%;
+        width: 28px;
+        height: 28px;
+        left: 57px;
+        top: 4px;
+    }
+    .input{
+        box-sizing: border-box;
+        position: absolute;
+        width: 343px;
+        background: #FFFFFF;    
+        border: 1px solid #D2D6DF;
+        border-radius: 20px;
+    }
+    .input.title{
+        height: 56px;
+        left: 16px;
+        top: 266px;
+        margin-bottom: 10px;
+    }
+    .input.content{
+        height: 112px;
+        left: 16px;
+        top: 332px;       
+    }
+    input::placeholder{
+        font-family: 'SF Pro Display';
+        font-weight: 300;
+        font-size: 17px;
+        color: #C7C7CC;
+        position: absolute;
+        left: 20px;
+        top: 18px;
+    }
+    .voiceTitle{  
+        position: absolute;
+        height: 20px;
+        left: 17px;
+        top: 464px;
+        font-family: 'SF Pro Display';
+        font-weight: 400;
+        font-size: 17px;
+        color: #191919;
+        margin: 0%;
+    }
+
+    .save{
+        position: fixed;
+        width: 343px;
+        height: 56px;
+        left: 16px;
+        top: 722px;
+        background: #8B82FF;
+        box-shadow: 0px 4px 8px rgba(139, 130, 255, 0.2);
+        border-radius: 20px;
+    }
+    .saveT{
+        color: #FFFFFF;
+        font-family: 'Noto Sans';
+        font-weight: 600;
+        font-size: 17px;
+        text-align: center;
+    }
+
+
+    
+    .demo_voice{
+        position: absolute;
+        width: 343px;
+        height: 170px;
+        left: 16px;
+        top: 494px;
+    }
+}

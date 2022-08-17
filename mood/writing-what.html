@@ -5,9 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="writing-what.css">
+    <script src="/mood/mood.js"></script>
     <title>Writing What</title>
 </head>
 <body>
-    
+    <div class="backgroud">
+        <a href="javascript:history.go(-1);"><img src="/img/mood/arrow.png" class="arrow"></a>
+        <!-- System date -->
+        <a href="/stats/stats_main.html"><span class="skip">Skip</span></a>
+        <p class="question">What happened today?</p>
+        <div class="choice" style=" left: 16px;">
+            <p class="name">Funny</p>
+            <img src="/img/emote/funny.png" class="icon">
+        </div>
+        <div class="choice" style="left: 120px;">
+            <p class="name">Travel</p>
+            <img src="/img/which/travel.png" class="icon">
+        </div>
+        <input type="text" placeholder="Title" class="input title">
+        <input type="text" placeholder="Please enter no more than 150 characters." class="input content">
+        <p class="voiceTitle">Your voice</p>
+        <!-- voice 위치만 잡아둠 -->
+        <img src="/img/mood/demo_voice.png" class="demo_voice"> 
+        <a href="/stats/stats_main.html">
+        <div class="save">
+                <p class="saveT">Save</p>
+            </div>
+        </a>
+    </div>
 </body>
 </html>
+
