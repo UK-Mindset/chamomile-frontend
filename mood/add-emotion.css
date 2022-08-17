@@ -86,7 +86,7 @@
     }
 
     .next{
-        position: fixed;
+        position: relative;
         width: 343px;
         height: 56px;
         left: 16px;
