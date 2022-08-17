@@ -55,14 +55,22 @@
         margin: 0px,20px,0px,0px;
         top: 550px;
     }
-    .iconWrap{
+    .clickChange{
         box-sizing: border-box;
         position: absolute;
-        width: 102px;
-        height: 102px;
+        width: 107px;
+        height: 90px;
         background: #FFFFFF;
         border: 1px solid #D2D6DF;
         border-radius: 20px;
+    }
+    .clicked{
+        background: rgba(139, 130, 255, 0.1);
+        border: 1px solid #8B82FF;
+        box-shadow: 0px 4px 8px rgba(139, 130, 255, 0.2);
+    }
+    .none { 
+        pointer-events: none; 
     }
     .col02{
         position: absolute;
@@ -77,12 +85,12 @@
         position: absolute;
         width: 36px;
         height: 36px;
-        top: 22px;
+        top: 18px;
     
     }
     .whichTitle{
         position: absolute;
-        top: 64px;
+        top: 57px;
         font-family: 'SF Pro Display';
         font-weight: 400;
         font-size: 15px;
