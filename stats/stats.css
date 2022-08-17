@@ -1,0 +1,240 @@
+
+*,
+*:after,
+*:before {
+    box-sizing             : border-box;
+    -webkit-box-sizing     : border-box;
+    -moz-box-sizing        : border-box;
+    -webkit-font-smoothing : antialiased;
+    -moz-font-smoothing    : antialiased;
+    -o-font-smoothing      : antialiased;
+    font-smoothing         : antialiased;
+    text-rendering         : optimizeLegibility;
+
+}
+
+.mediPlayer .control {
+    opacity        : 0; /* transition: opacity .2s linear; */
+    pointer-events : none;
+    cursor         : pointer;
+}
+
+.mediPlayer .not-started .play, .mediPlayer .paused .play {
+    opacity : 1;
+
+}
+
+.mediPlayer .playing .pause {
+    opacity : 1;
+
+}
+
+.mediPlayer .playing .play {
+    opacity : 0;
+}
+
+.mediPlayer .ended .stop {
+    opacity        : 1;
+    pointer-events : none;
+}
+
+.mediPlayer .precache-bar .done {
+    opacity : 0;
+}
+
+.mediPlayer .not-started .progress-bar, .mediPlayer .ended .progress-bar {
+    display : none;
+}
+
+.mediPlayer .ended .progress-track {
+    stroke-opacity : 1;
+}
+
+.mediPlayer .progress-bar,
+.mediPlayer .precache-bar {
+    transition        : stroke-dashoffset 500ms;
+
+    stroke-dasharray  : 298.1371428256714;
+    stroke-dashoffset : 298.1371428256714;
+}
+@media screen and (max-width: 720px){
+    .background{
+        margin: -8px;
+        width: 375px;
+        height: 812px;
+        background: linear-gradient(180deg, #E1DFFF 0%, #FFF9F9 21.55%, rgba(255, 255, 255, 0) 43.1%, #F8F7FC 47.35%);
+    }
+    .textStats{
+        color: #8B82FF;
+    }
+    .statsImg{
+        content:url("/img/footer/stats_on.png");
+    }
+
+    /* header CSS */
+    .mediPlayer{
+        position: absolute;
+        top: 54px;
+        margin-left: 16px;
+    }
+    .bgm{
+        font-family: 'SF Pro display';
+        font-weight: 200;
+        font-size: 13px;
+        color:#191919;
+        position: relative;
+        top: 58px;
+        margin-left: 50px;
+    }
+    .search{
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        left: 301px;
+        top: 54px;
+    }
+    .profile{
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        right: 18px;
+        top: 54px;
+    }
+
+    /* Emotion Stats CSS */
+    .title{
+        position: absolute;
+        left: 16px;
+        top: 108px;
+        font-family: 'SF Pro Display';
+        font-weight: 600;
+        font-size: 28px;
+        color: #191919;
+        margin: 0%;
+    }
+    .subTitle{
+        position: absolute;
+        left: 16px;
+        top: 144px;
+        font-family: 'SF Pro Display';
+        font-weight: 400;
+        font-size: 13px;
+        color: #C7C7CC;
+        margin: 0%;
+    }
+    .diary{
+        position: absolute;
+        width: 166px;
+        height: 166px;
+        left: 16px;
+        top: 190px;
+    }
+    .tracker{
+        position: absolute;
+        width: 166px;
+        height: 166px;
+        left: 195px;
+        top: 190px;
+    }
+    .white{
+        position: absolute;
+        width: 375px;
+        height: 400px;
+        left: 0px;
+        top: 386px;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.05);
+        border-radius: 30px;
+    }
+    .lanking{
+        margin: 0%;
+        position: absolute;
+        left: 16px;
+        top: 20px;
+        font-family: 'SF Pro Display';
+        font-weight: 600;
+        font-size: 20px;
+        color: #191919;
+    }
+    .more{
+        margin: 0%;
+        position: absolute;
+        width: 25px;
+        height: 18px;
+        left: 311px;
+        top: 26px;
+        font-family: 'SF Pro Display';
+        font-weight: 400;
+        font-size: 15px;
+        color: #8B82FF;
+    }
+    .lankingBack{
+        position: absolute;
+        width: 342px;
+        height: 229px;
+        left: 16px;
+        top: 74px;
+    }
+    .gold{
+        position: absolute;
+        width: 312px;
+        height: 44px;
+        left: 30px;
+        top: 129px;
+        background: #8B82FF;
+        border-radius: 100px;
+    }
+    .silver{
+        position: absolute;
+        width: 312px;
+        height: 44px;
+        left: 30px;
+        top: 183px;
+        background: rgba(139, 130, 255, 0.7);
+        border-radius: 100px;
+    }
+    .copper{
+        position: absolute;
+        width: 312px;
+        height: 44px;
+        left: 30px;
+        top: 237px;
+        background: rgba(139, 130, 255, 0.4);
+        border-radius: 100px;
+    }
+    .moodLanking{
+        position: absolute;
+        left: 31px;
+        top: 89px;
+        font-family: 'SF Pro Display';
+        font-weight: 600;
+        font-size: 17px;
+        color: #191919;
+        margin: 0%;
+    }
+    .face{
+        position: absolute;
+        width: 28px;
+        height: 28px;
+        left: 8px;
+        top: 9px;
+        margin: 0%;
+    }
+    .emoteName{
+        position: absolute;
+        left: 43px;
+        top: 11px;
+        font-family: 'SF Pro Display';
+        font-weight: 400;
+        font-size: 17px;
+        color: #FFFFFF;
+        margin: 0%;
+    }
+    .medal{
+        position: absolute;
+        width: 28px;
+        height: 28px;
+        right: 10px;
+        top: 8px;
+    }
+}

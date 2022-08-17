@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/stats/stats.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <!-- <script src="/player/player.js"></script> -->
+    <script src="/stats/stats.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.mediPlayer').mediaPlayer();
+        });
+    </script>
+    <title>Stats</title>
+</head>
+<body>
+    <div class="background">
+        <div class="container">
+            <!-- Media Player-->
+            <div class="mediPlayer">
+                <audio class="listen" preload="none" data-size="250" src="/player/music/music3.mp3"></audio>
+            </div>
+            <div class="bgm">BGM</div>
+            <a href="/search/search.html"><img src="/img/stats/search.png" class="search"></a>
+            <img src="/img/home/profile.png" class="profile">
+        </div> <!-- Media Player / -->
+        <p class="title">Emotion Stats</p>
+        <p class="subTitle">My state of mind at a glance</p>
+        <img src="/img/stats/diary.png" class="diary">
+        <img src="/img/stats/tracker.png" class="tracker">
+        <div class="white">
+            <p class="lanking">Your mood statstic</p>
+            <p class="more">More</p>
+            <img src="/img/stats/lankingBack.png" class="lankingBack">
+            <p class="moodLanking">Mood lanking</p>
+            <div class="gold">
+                <img src="/img/emote/cool.png" class="face">
+                <p class="emoteName">Cool</p>
+                <img src="/img/stats/gold.png" class="medal">
+            </div>
+            <div class="silver">
+                <img src="/img/emote/powerless.png" class="face">
+                <p class="emoteName">Confused</p>
+                <img src="/img/stats/silver.png" class="medal">
+            </div>
+            <div class="copper">
+                <img src="/img/emote/sad.png" class="face">
+                <p class="emoteName">Sad</p>
+                <img src="/img/stats/copper.png" class="medal">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
