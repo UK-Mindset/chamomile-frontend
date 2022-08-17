@@ -21,7 +21,6 @@
         font-weight: 600;
         font-size: 24px;
         color: #191919;
-
     }
 
     /* emotion CSS */
@@ -31,22 +30,22 @@
         left: 16px;
         right: 16px;
     }
-    .rowE01{
+    .rowC01{
         position: relative;
         margin: 0px,20px,0px,0px;
         top: 219px;
     }
-    .rowE02{
+    .rowC02{
         position: relative;
         margin: 0px,20px,0px,0px;
         top: 341px;
     }
-    .rowE03{
+    .rowC03{
         position: relative;
         margin: 0px,20px,0px,0px;
         top: 463px;
     }
-    .emoteWrap{
+    .clickChange{
         box-sizing: border-box;
         position: absolute;
         width: 102px;
@@ -54,6 +53,14 @@
         background: #FFFFFF;
         border: 1px solid #D2D6DF;
         border-radius: 20px;
+    }
+    .clicked{
+        background: rgba(139, 130, 255, 0.1);
+        border: 1px solid #8B82FF;
+        box-shadow: 0px 4px 8px rgba(139, 130, 255, 0.2);
+    }
+    .none { 
+        pointer-events: none; 
     }
     .col02{
         position: absolute;
@@ -79,6 +86,7 @@
         color: #191919;
         margin: 0%;
     }
+
     .more{
         margin: 0%;
         width: 102px;

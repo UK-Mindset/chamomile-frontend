@@ -4,55 +4,56 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="choice-emotion.css">
+    <link rel="stylesheet" href="/mood/choice-emotion.css">
+    <script src="/mood/mood.js"></script>
     <title>Choice Emotion</title>
 </head>
 <body>
     <div class="backgroud">
-        <a href="/home/home_main.html"><img src="/img/mood/arrow.png" class="arrow"></a>
+        <a href="javascript:history.go(-1);"><img src="/img/mood/arrow.png" class="arrow"></a>
         <p class="question">How are you feeling?</p>
-        <div class="emotionWrap">
-            <div class="rowE01">
-                <div class="emoteWrap col01">
-                    <img src="/img/emote/happy.png" class="face" style="left: 33px;">
-                    <p class="emoteTitle" style="left: 30px">Happy</p>
+        <div class="emotionWrap" >
+            <div class="rowC01" onclick="change()">
+                <div class="clickChange col01">
+                    <img src="/img/emote/happy.png" class="face none" style="left: 33px;">
+                    <p class="emoteTitle none" style="left: 30px;">Happy</p>
                 </div>
-                <div class="emoteWrap col02">
-                    <img src="/img/emote/sad.png" class="face" style="left: 33px;">
-                    <p class="emoteTitle" style="left: 37.5px">Sad</p>
+                <div class="clickChange col02">
+                    <img src="/img/emote/sad.png" class="face none" style="left: 33px;">
+                    <p class="emoteTitle none" style="left: 37.5px;;">Sad</p>
                 </div>
-                <div class="emoteWrap col03">
-                    <img src="/img/emote/angry.png" class="face" style="left: 33px;">
-                    <p class="emoteTitle" style="left: 30px;">Angry</p>
-                </div>
-            </div>
-            <div class="rowE02">
-                <div class="emoteWrap col01">
-                    <img src="/img/emote/worried.png" class="face" style="left: 33px;">
-                    <p class="emoteTitle" style="left: 25px;">Worried</p>
-                </div>
-                <div class="emoteWrap col02">
-                    <img src="/img/emote/confuse.png" class="face" style="left: 33px;">
-                    <p class="emoteTitle" style="left: 23px;">Confuse</p>
-                </div>
-                <div class="emoteWrap col03">
-                    <img src="/img/emote/excited.png" class="face" style="left: 33px;">
-                    <p class="emoteTitle" style="left: 27.5px;">Excited</p>
+                <div class="clickChange col03">
+                    <img src="/img/emote/angry.png" class="face none" style="left: 33px;">
+                    <p class="emoteTitle none" style="left: 30px;">Angry</p>
                 </div>
             </div>
-            <div class="rowE03">
-                <div class="emoteWrap col01">
-                    <img src="/img/emote/surprised.png" class="face" style="left: 33px;">
-                    <p class="emoteTitle" style="left: 20px;">surprised</p>
+            <div class="rowC02">
+                <div class="clickChange col01">
+                    <img src="/img/emote/worried.png" class="face none" style="left: 33px;">
+                    <p class="emoteTitle none" style="left: 25px">Worried</p>
                 </div>
-                <div class="emoteWrap col02">
-                    <img src="/img/emote/tired.png" class="face" style="left: 33px;">
-                    <p class="emoteTitle" style="left: 34px;">Tired</p>
+                <div class="clickChange col02">
+                    <img src="/img/emote/confuse.png" class="face none" style="left: 33px;">
+                    <p class="emoteTitle none" style="left: 23px">Confuse</p>
+                </div>
+                <div class="clickChange col03">
+                    <img src="/img/emote/excited.png " class="face none" style="left: 33px;">
+                    <p class="emoteTitle none" style="left: 27.5px;">Excited</p>
+                </div>
+            </div>
+            <div class="rowC03">
+                <div class="clickChange col01">
+                    <img src="/img/emote/surprised.png" class="face none" style="left: 33px;">
+                    <p class="emoteTitle none" style="left: 20px">Surprised</p>
+                </div>
+                <div class="clickChange col02">
+                    <img src="/img/emote/tired.png" class="face none" style="left: 33px;">
+                    <p class="emoteTitle none" style="left: 34px">Tired</p>
                 </div>
                 <a href="/mood/add-emotion.html"><img src="/img/mood/more.png" class="more"></a>
             </div>
         </div>
-        <a href="/mood/choice-which.html">
+        <a href="/mood/add-emotionh.html">
             <div class="next">
                 <p class="nextT">Next</p>
             </div>
