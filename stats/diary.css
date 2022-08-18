@@ -21,14 +21,67 @@
     font-size: 17px;
     color: #191919;
 }
+.calendar{
+    margin: 0%;
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 341px;
+    top: 123px;
+}
+.monthYear{
+    margin: 0%;
+    position: absolute;
+    left: 16px;
+    top: 123px;
+    font-family: 'SF Pro Display';
+    font-weight: 600;
+    font-size: 20px;
+    color: #191919;
+}
+.week{
+    position: relative;
+    left: 16px;
+    top: 171px;
+
+}
 .white{
     margin: 0%;
     position: absolute;
     width: 375px;
-    height: 672px;
+    min-height: 770px;
     left: 0px;
     top: 276px;
     background: #FFFFFF;
     box-shadow: 4px 0px 8px rgba(0, 0, 0, 0.05);
     border-radius: 30px 30px 0px 0px;
+}
+.subTitle{
+    position: absolute;
+    left: 16px;
+    top: 20px;
+    font-family: 'SF Pro Display';
+    font-weight: 600;
+    font-size: 20px;
+    color: #191919;
+    margin: 0%;
+}
+.time{
+    margin: 0%;
+    position: absolute;
+    left: 17px;
+    font-family: 'SF Pro Display';
+    font-weight: 400;
+    font-size: 13px;
+    color: #C7C7CC;
+}
+.line{
+    margin: 0%;
+    position: absolute;
+    left: 101px;
+}
+.face{
+    position: absolute;
+    width: 258px;
+    left: 101px;
 }

@@ -1,0 +1,128 @@
+.background{
+    margin: -8px;
+    width: 375px;
+    height: 1100px;
+    background: linear-gradient(180deg, #E1DFFF 0%, #FFF9F9 21.55%, rgba(255, 255, 255, 0) 43.1%, #F8F7FC 47.35%);
+}
+.arrow{
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    left: 11px;
+    top: 57px;
+}
+.title{
+    margin: 0%;
+    position: absolute;
+    left: 138px;
+    top: 65px;
+    font-family: 'SF Pro Display';
+    font-weight: 600;
+    font-size: 17px;
+    color: #191919;
+}
+.button{
+    margin: 0%;
+    position: absolute;
+    width: 343px;
+    height: 44px;
+    left: 18px;
+    top: 123px;
+}
+.stick{
+    margin: 0%;
+    position: absolute;
+    width: 343px;
+    height: 266px;
+    left: 18px;
+    top: 197px;
+}
+.boxP{
+    margin: 0%;
+    position: absolute;
+    width: 165px;
+    height: 98px;
+    left: 16px;
+    top: 478px;
+    background: rgba(114, 146, 255, 0.2);
+    border-radius: 20px;
+}
+.tP01{
+    margin: 0%;
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    font-family: 'SF Pro Display';
+    font-weight: 600;
+    font-size: 17px;
+    color: #7292FF;
+}
+.tP02{
+    margin: 0%;
+    position: absolute;
+    left: 15px;
+    top: 47px;
+    font-family: 'SF Pro Display';
+    font-weight: 600;
+    font-size: 36px;
+    color: #7292FF;
+}
+.boxN{
+    margin: 0%;
+    position: absolute;
+    width: 165px;
+    height: 98px;
+    left: 194px;
+    top: 478px;
+    background: rgba(236, 132, 223, 0.2);
+    border-radius: 20px;
+}
+.tN01{
+    margin: 0%;
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    font-family: 'SF Pro Display';
+    font-weight: 600;
+    font-size: 17px;
+    color: #EC84DF;
+}
+.tN02{
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    font-family: 'SF Pro Display';
+    font-weight: 600;
+    font-size: 36px;
+    color: #EC84DF;
+}
+.bar{
+    position: absolute;
+    width: 343px;
+    height: 170px;
+    left: 16px;
+    top: 591px;
+}
+.happyM{
+    position: absolute;
+    width: 343px;
+    height: 144px;
+    left: 16px;
+    top: 776px;
+}
+.difficult{
+    position: absolute;
+    width: 343px;
+    height: 146px;
+    left: 16px;
+    top: 935px;
+}
+.subTitle{
+    position: absolute;
+    left: 30px;
+    top: 935px;
+    font-family: 'SF Pro Display';
+    font-weight: 700;
+    font-size: 17px;
+    color: #191919;
+}

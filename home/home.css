@@ -72,7 +72,9 @@
         color: #8B82FF;
     }
 
-
+    .homeImg{
+        content:url("/img/footer/home_on.png");
+    }
     /* purple part CSS */
     .header{
         margin-top: -15px;
@@ -128,7 +130,7 @@
         position: absolute;
         width: 24px;
         height: 24px;
-        right: 18px;
+        left: 335px;
         top: 54px;
 
     }
@@ -283,6 +285,8 @@
         margin: 0%;
         top: 6px;
         left: 8px;
+        width: 26px;
+        height: 26px;
     }
     .moodperT{
          position: absolute;
