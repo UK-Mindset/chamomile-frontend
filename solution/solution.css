@@ -58,7 +58,7 @@
     stroke-dashoffset : 298.1371428256714;
 }
 
-/* .background{
+.background{
     position: absolute;
     width: 375px;
     height: 351px;
@@ -72,7 +72,7 @@
 .solutionImg{
     content:url("/img/footer/solution_on.png");
 }
-.mediPlayer{
+/* .mediPlayer{
     position: absolute;
     top: 54px;
     margin-left: 16px;
@@ -104,7 +104,9 @@
 
 
 
-.solutionImg{
+.solutionImgs{
     width: 100%;
     height: auto;
+    margin: 0%;
+    
 }
