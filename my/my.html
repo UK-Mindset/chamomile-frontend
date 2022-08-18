@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/my/my.css">
+    <script src="/my/my.js"></script>
+    <title>My</title>
+    <script>
+        $(document).ready(function () {
+            $('.mediPlayer').mediaPlayer();
+        });
+    </script>
+</head>
+<body>
+    <div class="background">
+        <div class="container">
+            <!-- Media Player-->
+            <div class="mediPlayer">
+                <audio class="listen" preload="none" data-size="250" src="/player/music/music3.mp3"></audio>
+            </div>
+            <div class="bgm">BGM</div>
+            <a href="/search/search.html"><img src="/img/stats/search.png" class="search"></a>
+            <img src="/img/home/profile.png" class="profile">
+        </div>
+        <img src="/img/my/myWhite.png" class="full">
+    </div>
+</body>
+</html>
